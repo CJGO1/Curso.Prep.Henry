@@ -1,0 +1,18 @@
+
+VARIABLES : Las variables son una forma de guardar el valor de algo para usarlo más tarde. Para crearla se utiliza el comando var seguido de un espacio y el nombre
+de la variable, luego se asigna un valor con el signo =. 
+
+STRINGS: Son un tipo de datos conformado por bloques de texto, siempre estan entre comillas.
+
+FUNCIONES: Son un conjunto de instrucciones que se pueden invocar en el momento que se necesiten para realizar los calculos, operaciones o cambios para las que fueron
+diseñadas. Una vez diseñada la función, se le pueden ingresar los valores (argumentos) con los que debe trabajar en ese momento. Para extraer el resultado o los
+cambios efectuados a los argumentos introducidos fuera de la función se utiliza el comando return. 
+
+DECLARACIONES IF: El comando if sirve para activar los operadores de comparación (<,<=,>,>=,===,!==), los cuales evaluan dos elementos y determinan si el enunciado
+es verdadero o falso.
+
+VALORES BOOLEANOS: Presentan una lógica binaria, es decir, que representan un 0 o un 1, siendo estos valores interpretados como un estado activo o desactivado,
+o una declaracion verdadera o falsa. 
+
+
+
