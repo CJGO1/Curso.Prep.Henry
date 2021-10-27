@@ -1,0 +1,12 @@
+for es un comando que se usa para ejecutar lineas de código repetitivamente, como en un ciclo. Sintaxis:
+for () {}, dentro del paréntesis se debe, primero, declarar la variable, es decir, sobre lo que se repetirá
+el bucle. Luego, seguido de ; se incluye una declaración que sea falsa para detener la ejecución del buble.
+Y finalmente, se debe incrementar la variable terminando con ;
+
+&&, | |, ! son operadores lógicos que sirven para combinar dos expresiones de igualdad, y preguntar si alguna
+de las dos es verdadera, si ambas son veraderas, o si ninguna de ellas es verdadera.
+
+&& "Y" ("AND") evalua las expresiones y devuelve verdadero si ambas son verdaderas.
+|| "ó" ("OR") devuelve verdadero si al menos una o las dos expresiones son verdaderas. Será false si las dos
+expresiones son falsas.
+! "NOT" ("NO") devuelve el valor booleano opuesto del que se le entrega. 

@@ -1,0 +1,4 @@
+Los arrays se usan para almacenar multiples variables en una sola variable. Array es una variable especial 
+que puede contener más de un valor al mismo tiempo. Es una practica común declarar arrays con el comando const
+Dado que los arrays contienen muchos valores bajo un mismo nombre, se puede acceder a estos valores mediante 
+un indice.
