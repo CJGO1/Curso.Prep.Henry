@@ -1,0 +1,35 @@
+OBJETOS: Los objetos son contenedores de datos. Mientras que los arrays pueden contener
+multiples elementos relacionados unos con otros, los objetos contienen mucha información
+sobre una sola cosa. Se usan con las llaves {}. Los objetos usan el concepto pares
+de clave:valor (key:value). La clave es el identificador y el valor (value) es el valor
+que queremos guardar en esa clave. La sintaxis es "clave:valor". Los objetos pueden
+contener muchos pares clave:valor, deben estar separados por una coma(,). Las claves
+son únicas en un objeto, solo puede haber una clave con ese nombre, aunque varias claves
+pueden tener el mismo valor. Los valores pueden ser cualquier tipo de dato de JS.
+
+Para acceder a un valor se invoca el nombre del objeto y la clave:
+                        nombre_objeto.clave;
+o tambien se puede hacer con notación de corchetes, pero se debe usar un string o 
+número o una variable que este definida como número o string. Generalmente los corchetes
+se usan con variables.
+                    const passString= "password"
+                    nombre_objeto [passString];
+                    nombre_objeto ["clave]
+                    
+PROPIEDADES:Los pares (key:value) que componen los objetos también se denominan propiedades. Un
+ejemplo de propiedades del objeto serian nombre, apellido, edad, estatura...etc., es
+decir, caracteristicas. 
+
+MÉTODOS: Los objetos también tienen métodos. Los métodos son acciones que se pueden
+realizar con los objetos. Los métodos en JS son una propiedad (key:value) que contiene una 
+función. Asi mismo, las funciones guardadas en un objeto se denominan métodos.
+
+BUCLES FOR IN: La declaración for in itera a tráves de las propiedades (key:value) de
+un objeto. También se usa para itear las propiedades de un array. Sintaxis:
+                    for(key in object) {
+                        código...
+                    }
+No se debe usar esta declaración en un array si el orden del indíce es importante.Es
+mejor usar for, for of, o Array.forEach() cuando el orden sea importante. 
+
+
